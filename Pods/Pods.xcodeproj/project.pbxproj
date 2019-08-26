@@ -1,0 +1,695 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		07A3402A2FF84BAB3194F3C1B29DCD60 /* Networking+DELETE.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1E4863DC556E3084048F14108BCFA4E /* Networking+DELETE.swift */; };
+		11491E385819F894C03D1E4906344AFE /* FANetworking-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A2DD51EABBA383EC7E8EEE9579E68CA6 /* FANetworking-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1554FACB5CFAD4DD82B9090ED65DD48F /* Networking.swift in Sources */ = {isa = PBXBuildFile; fileRef = 994C2608CC386531B7CBF1924A2B1D2D /* Networking.swift */; };
+		1F61455AC22CE4927C0961E61A84F6D4 /* Image.swift in Sources */ = {isa = PBXBuildFile; fileRef = C87232CDBD16E6E66D6BA25C46F33E20 /* Image.swift */; };
+		25198BFE2B78109E5321828BB9B6318A /* Dictionary+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 244964505D5193D74B6F662A1D4D3AC3 /* Dictionary+Extension.swift */; };
+		2625AE97E830A61E3312CFA20A204F35 /* TestCheck.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B434079360E8B214CAA3381E9E011E4 /* TestCheck.swift */; };
+		2CFA2174E8019D6F436DA6934C56EA2C /* FANetworking-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D1B7109ECEC5998FD0AC8FD11E20981 /* FANetworking-dummy.m */; };
+		3891AF4314BF271E418363E8C0FD1260 /* Networking+Private.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9193272524D988C41C8E96A9B227A49C /* Networking+Private.swift */; };
+		3A610719D8618B54D480DB670A738654 /* Pods-PinterestFeed-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AB03FFEE333C85AF4B4D5BB0153D2F5 /* Pods-PinterestFeed-dummy.m */; };
+		46FB9ABCB1383C11242AA9529DB33B2F /* Networking+Params.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75D5F033FC1A69C97BCF309CC452BDC2 /* Networking+Params.swift */; };
+		4DE08450761D6313021A591E792A2710 /* Networking+Image.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0E2511CB67CA12CEE9D0BC943DE5FDC /* Networking+Image.swift */; };
+		605FEA0792585C579868D641DA2D3365 /* HTTPURLResponse+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = C25A63DD06BA9491C149258ACA9C9655 /* HTTPURLResponse+Extension.swift */; };
+		6378C6F9C9D5E3DCD2863F8A13425D26 /* URL+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD8254E45041A3DB142690C74FC626EC /* URL+Extension.swift */; };
+		64F5D62DC2B74700F41C60B814FE7FB5 /* Result.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF3DACD1F016D1A6688BDB35754C60F5 /* Result.swift */; };
+		68D83C1094C9D48C46AD31C655D86B68 /* JSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = 732934BFFA185163711466278F2EB77E /* JSON.swift */; };
+		89B97E79EAE56390937349F10116EE83 /* String+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = C97DC0ECA767789C776FDC707A496553 /* String+Extension.swift */; };
+		8E14099CFCFDF287773DB014448F17D8 /* Networking+PUT.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C2D3A20ED4E3CCDF515AC3AC12F8F21 /* Networking+PUT.swift */; };
+		8FB3CC47F4DCFF2F23588CC361CE7C07 /* FormDataPart.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89B27F878F2A8BE2EB0CEBABE7ED7A88 /* FormDataPart.swift */; };
+		A3F20DCAFFB0601AEEC76F45DCCBCB4C /* Networking+GET.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8BDD257DCC2DA8A90D6DBCCCEC99421 /* Networking+GET.swift */; };
+		A7E4B167AC8CA3F056D160D2922EA91D /* FileManager+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 550CBB4176A2BDAA00E7092147426FF9 /* FileManager+Extension.swift */; };
+		AECF5B493E696387821CC06BA3804353 /* Pods-PinterestFeed-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4A2054559B828A730AD02E70054911D9 /* Pods-PinterestFeed-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B289171E69BD7A9AB1339646FB4ADF63 /* Int+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3753D28610828FB9680CCB7F2D6F7D7 /* Int+Extension.swift */; };
+		B413FF133E8E2FB70097882D509F4BE0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		BD75D2DD50CAAB35A79734C347604166 /* Data+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C5B9026F7AB45579FED002D0C5A9DB3 /* Data+Extension.swift */; };
+		D45D6EDE8236D519777D72B4D7B5D3A8 /* CharacterSet+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD1B156C624D0C5A5DBC3266BE5CDD8E /* CharacterSet+Extension.swift */; };
+		D543BAC793AC70057B3567F396516063 /* Networking+POST.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42DCD3E6471A43C630C60E92A9BE4FCA /* Networking+POST.swift */; };
+		E07C7F049FEC26848A9F31141D1232DF /* URLRequest+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6A519AE2E9990647A459B57BF4ADBCC /* URLRequest+Extension.swift */; };
+		E46C88B80B9A818A271DB7E733B33F22 /* Response.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DF48C18A49EEF11A54217088E051ED5 /* Response.swift */; };
+		F1EC06F8B7046226EC249BCC1CCFD334 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		FC6657C4DEF4CA42CE6B50A6BAC878BC /* FANetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = B35ED68A8E69B580956FFEFB85DF09AC /* FANetworking.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		68B5FC132A773E7EB8075825CFCF0CA7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CB64D727006AB280F2EA73BA45C91238;
+			remoteInfo = FANetworking;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		04E2583F907D3406F56A64B3C5B20D59 /* Pods-PinterestFeed-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-PinterestFeed-acknowledgements.plist"; sourceTree = "<group>"; };
+		113A668E5116FB9E1060B5E56990E7D7 /* FANetworking.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FANetworking.xcconfig; sourceTree = "<group>"; };
+		1C5B9026F7AB45579FED002D0C5A9DB3 /* Data+Extension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Data+Extension.swift"; path = "FANetworking/Helpers/Data+Extension.swift"; sourceTree = "<group>"; };
+		1DF48C18A49EEF11A54217088E051ED5 /* Response.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Response.swift; path = FANetworking/Reponse/Response.swift; sourceTree = "<group>"; };
+		244964505D5193D74B6F662A1D4D3AC3 /* Dictionary+Extension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Dictionary+Extension.swift"; path = "FANetworking/Helpers/Dictionary+Extension.swift"; sourceTree = "<group>"; };
+		273DB6CC38F6C8D50AD996D044F0331C /* FANetworking-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "FANetworking-Info.plist"; sourceTree = "<group>"; };
+		2C2D3A20ED4E3CCDF515AC3AC12F8F21 /* Networking+PUT.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Networking+PUT.swift"; path = "FANetworking/Networking/Networking+PUT.swift"; sourceTree = "<group>"; };
+		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		4170A9EEB8E5016AB2EC82E96C5B7D34 /* Pods_PinterestFeed.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_PinterestFeed.framework; path = "Pods-PinterestFeed.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		42DCD3E6471A43C630C60E92A9BE4FCA /* Networking+POST.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Networking+POST.swift"; path = "FANetworking/Networking/Networking+POST.swift"; sourceTree = "<group>"; };
+		462EDCEF45C53306568724A5461E3324 /* FANetworking.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = FANetworking.modulemap; sourceTree = "<group>"; };
+		4A2054559B828A730AD02E70054911D9 /* Pods-PinterestFeed-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-PinterestFeed-umbrella.h"; sourceTree = "<group>"; };
+		4AB03FFEE333C85AF4B4D5BB0153D2F5 /* Pods-PinterestFeed-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-PinterestFeed-dummy.m"; sourceTree = "<group>"; };
+		51ABC09C0B4AFF482E595A53CE128B8D /* Pods-PinterestFeed.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PinterestFeed.release.xcconfig"; sourceTree = "<group>"; };
+		52D9D7481DDCF571B82F4185E2D18068 /* Pods-PinterestFeed.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PinterestFeed.debug.xcconfig"; sourceTree = "<group>"; };
+		550CBB4176A2BDAA00E7092147426FF9 /* FileManager+Extension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "FileManager+Extension.swift"; path = "FANetworking/Helpers/FileManager+Extension.swift"; sourceTree = "<group>"; };
+		5D1B7109ECEC5998FD0AC8FD11E20981 /* FANetworking-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "FANetworking-dummy.m"; sourceTree = "<group>"; };
+		732934BFFA185163711466278F2EB77E /* JSON.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = JSON.swift; path = "FANetworking/Data Types/JSON.swift"; sourceTree = "<group>"; };
+		75D5F033FC1A69C97BCF309CC452BDC2 /* Networking+Params.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Networking+Params.swift"; path = "FANetworking/Networking/Networking+Params.swift"; sourceTree = "<group>"; };
+		7B434079360E8B214CAA3381E9E011E4 /* TestCheck.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TestCheck.swift; path = FANetworking/TestCheck.swift; sourceTree = "<group>"; };
+		866DFB9F128290CDBAE8AEC9FAEC75AD /* FANetworking.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = FANetworking.framework; path = FANetworking.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		89B27F878F2A8BE2EB0CEBABE7ED7A88 /* FormDataPart.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FormDataPart.swift; path = "FANetworking/Data Types/FormDataPart.swift"; sourceTree = "<group>"; };
+		8A8594BB10E2243672E45ED82C6D841B /* Pods-PinterestFeed-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-PinterestFeed-frameworks.sh"; sourceTree = "<group>"; };
+		8AAFE136E31B7390929C66DBC2FD1B46 /* Pods-PinterestFeed.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-PinterestFeed.modulemap"; sourceTree = "<group>"; };
+		9193272524D988C41C8E96A9B227A49C /* Networking+Private.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Networking+Private.swift"; path = "FANetworking/Networking/Networking+Private.swift"; sourceTree = "<group>"; };
+		980C449A6202A754E2B1AE9A8BD71E6B /* FANetworking-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FANetworking-prefix.pch"; sourceTree = "<group>"; };
+		994C2608CC386531B7CBF1924A2B1D2D /* Networking.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Networking.swift; path = FANetworking/Networking/Networking.swift; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A2DD51EABBA383EC7E8EEE9579E68CA6 /* FANetworking-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FANetworking-umbrella.h"; sourceTree = "<group>"; };
+		A3753D28610828FB9680CCB7F2D6F7D7 /* Int+Extension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Int+Extension.swift"; path = "FANetworking/Helpers/Int+Extension.swift"; sourceTree = "<group>"; };
+		A8BDD257DCC2DA8A90D6DBCCCEC99421 /* Networking+GET.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Networking+GET.swift"; path = "FANetworking/Networking/Networking+GET.swift"; sourceTree = "<group>"; };
+		A9CC4AC9441534D5098BE292EA30F336 /* Pods-PinterestFeed-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-PinterestFeed-Info.plist"; sourceTree = "<group>"; };
+		B35ED68A8E69B580956FFEFB85DF09AC /* FANetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FANetworking.h; path = FANetworking/FANetworking.h; sourceTree = "<group>"; };
+		BC9C0BDB1380E58A7CFCFEBE77E7D15D /* Pods-PinterestFeed-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-PinterestFeed-acknowledgements.markdown"; sourceTree = "<group>"; };
+		BD8254E45041A3DB142690C74FC626EC /* URL+Extension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "URL+Extension.swift"; path = "FANetworking/Helpers/URL+Extension.swift"; sourceTree = "<group>"; };
+		BF3DACD1F016D1A6688BDB35754C60F5 /* Result.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Result.swift; path = FANetworking/Reponse/Result.swift; sourceTree = "<group>"; };
+		C25A63DD06BA9491C149258ACA9C9655 /* HTTPURLResponse+Extension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "HTTPURLResponse+Extension.swift"; path = "FANetworking/Helpers/HTTPURLResponse+Extension.swift"; sourceTree = "<group>"; };
+		C87232CDBD16E6E66D6BA25C46F33E20 /* Image.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Image.swift; path = "FANetworking/Data Types/Image.swift"; sourceTree = "<group>"; };
+		C97DC0ECA767789C776FDC707A496553 /* String+Extension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "String+Extension.swift"; path = "FANetworking/Helpers/String+Extension.swift"; sourceTree = "<group>"; };
+		CD1B156C624D0C5A5DBC3266BE5CDD8E /* CharacterSet+Extension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "CharacterSet+Extension.swift"; path = "FANetworking/Helpers/CharacterSet+Extension.swift"; sourceTree = "<group>"; };
+		E1E4863DC556E3084048F14108BCFA4E /* Networking+DELETE.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Networking+DELETE.swift"; path = "FANetworking/Networking/Networking+DELETE.swift"; sourceTree = "<group>"; };
+		F0E2511CB67CA12CEE9D0BC943DE5FDC /* Networking+Image.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Networking+Image.swift"; path = "FANetworking/Networking/Networking+Image.swift"; sourceTree = "<group>"; };
+		F6A519AE2E9990647A459B57BF4ADBCC /* URLRequest+Extension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "URLRequest+Extension.swift"; path = "FANetworking/Helpers/URLRequest+Extension.swift"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FBE3EEDB67678BA7834FDE3C4EC54A8E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F1EC06F8B7046226EC249BCC1CCFD334 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FF27DBD37CA6A4A07778CD71222811DE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B413FF133E8E2FB70097882D509F4BE0 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		19FE5F2786DF90F432EE799C310E152D /* FANetworking */ = {
+			isa = PBXGroup;
+			children = (
+				CD1B156C624D0C5A5DBC3266BE5CDD8E /* CharacterSet+Extension.swift */,
+				1C5B9026F7AB45579FED002D0C5A9DB3 /* Data+Extension.swift */,
+				244964505D5193D74B6F662A1D4D3AC3 /* Dictionary+Extension.swift */,
+				B35ED68A8E69B580956FFEFB85DF09AC /* FANetworking.h */,
+				550CBB4176A2BDAA00E7092147426FF9 /* FileManager+Extension.swift */,
+				89B27F878F2A8BE2EB0CEBABE7ED7A88 /* FormDataPart.swift */,
+				C25A63DD06BA9491C149258ACA9C9655 /* HTTPURLResponse+Extension.swift */,
+				C87232CDBD16E6E66D6BA25C46F33E20 /* Image.swift */,
+				A3753D28610828FB9680CCB7F2D6F7D7 /* Int+Extension.swift */,
+				732934BFFA185163711466278F2EB77E /* JSON.swift */,
+				994C2608CC386531B7CBF1924A2B1D2D /* Networking.swift */,
+				E1E4863DC556E3084048F14108BCFA4E /* Networking+DELETE.swift */,
+				A8BDD257DCC2DA8A90D6DBCCCEC99421 /* Networking+GET.swift */,
+				F0E2511CB67CA12CEE9D0BC943DE5FDC /* Networking+Image.swift */,
+				75D5F033FC1A69C97BCF309CC452BDC2 /* Networking+Params.swift */,
+				42DCD3E6471A43C630C60E92A9BE4FCA /* Networking+POST.swift */,
+				9193272524D988C41C8E96A9B227A49C /* Networking+Private.swift */,
+				2C2D3A20ED4E3CCDF515AC3AC12F8F21 /* Networking+PUT.swift */,
+				1DF48C18A49EEF11A54217088E051ED5 /* Response.swift */,
+				BF3DACD1F016D1A6688BDB35754C60F5 /* Result.swift */,
+				C97DC0ECA767789C776FDC707A496553 /* String+Extension.swift */,
+				7B434079360E8B214CAA3381E9E011E4 /* TestCheck.swift */,
+				BD8254E45041A3DB142690C74FC626EC /* URL+Extension.swift */,
+				F6A519AE2E9990647A459B57BF4ADBCC /* URLRequest+Extension.swift */,
+				485306EAE6830CD8797524EE48A11E6B /* Support Files */,
+			);
+			name = FANetworking;
+			path = FANetworking;
+			sourceTree = "<group>";
+		};
+		39FAFD3FC2F421188917D5EB5AF8A960 /* Pods-PinterestFeed */ = {
+			isa = PBXGroup;
+			children = (
+				8AAFE136E31B7390929C66DBC2FD1B46 /* Pods-PinterestFeed.modulemap */,
+				BC9C0BDB1380E58A7CFCFEBE77E7D15D /* Pods-PinterestFeed-acknowledgements.markdown */,
+				04E2583F907D3406F56A64B3C5B20D59 /* Pods-PinterestFeed-acknowledgements.plist */,
+				4AB03FFEE333C85AF4B4D5BB0153D2F5 /* Pods-PinterestFeed-dummy.m */,
+				8A8594BB10E2243672E45ED82C6D841B /* Pods-PinterestFeed-frameworks.sh */,
+				A9CC4AC9441534D5098BE292EA30F336 /* Pods-PinterestFeed-Info.plist */,
+				4A2054559B828A730AD02E70054911D9 /* Pods-PinterestFeed-umbrella.h */,
+				52D9D7481DDCF571B82F4185E2D18068 /* Pods-PinterestFeed.debug.xcconfig */,
+				51ABC09C0B4AFF482E595A53CE128B8D /* Pods-PinterestFeed.release.xcconfig */,
+			);
+			name = "Pods-PinterestFeed";
+			path = "Target Support Files/Pods-PinterestFeed";
+			sourceTree = "<group>";
+		};
+		485306EAE6830CD8797524EE48A11E6B /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				462EDCEF45C53306568724A5461E3324 /* FANetworking.modulemap */,
+				113A668E5116FB9E1060B5E56990E7D7 /* FANetworking.xcconfig */,
+				5D1B7109ECEC5998FD0AC8FD11E20981 /* FANetworking-dummy.m */,
+				273DB6CC38F6C8D50AD996D044F0331C /* FANetworking-Info.plist */,
+				980C449A6202A754E2B1AE9A8BD71E6B /* FANetworking-prefix.pch */,
+				A2DD51EABBA383EC7E8EEE9579E68CA6 /* FANetworking-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/FANetworking";
+			sourceTree = "<group>";
+		};
+		49441DB50FA789A8BACBF6783F1A2FF3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				866DFB9F128290CDBAE8AEC9FAEC75AD /* FANetworking.framework */,
+				4170A9EEB8E5016AB2EC82E96C5B7D34 /* Pods_PinterestFeed.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BFB933F50100AFFDEA665B9CA0D9F9CA /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				19FE5F2786DF90F432EE799C310E152D /* FANetworking */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		C0834CEBB1379A84116EF29F93051C60 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				BFB933F50100AFFDEA665B9CA0D9F9CA /* Pods */,
+				49441DB50FA789A8BACBF6783F1A2FF3 /* Products */,
+				EC5131EE5300D72BFFFE14679D589E80 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C0834CEBB1379A84116EF29F93051C60 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EC5131EE5300D72BFFFE14679D589E80 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				39FAFD3FC2F421188917D5EB5AF8A960 /* Pods-PinterestFeed */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		2305BA72EB1583D6ED17BBB63C74973E /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AECF5B493E696387821CC06BA3804353 /* Pods-PinterestFeed-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9C806564123734BA308D2023AB651825 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				11491E385819F894C03D1E4906344AFE /* FANetworking-umbrella.h in Headers */,
+				FC6657C4DEF4CA42CE6B50A6BAC878BC /* FANetworking.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		CA3DA22D4133FA5B69A8875CFBF13065 /* Pods-PinterestFeed */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5B72AD9E8B2893611C185731D08B1E3B /* Build configuration list for PBXNativeTarget "Pods-PinterestFeed" */;
+			buildPhases = (
+				2305BA72EB1583D6ED17BBB63C74973E /* Headers */,
+				3D23A4371AA8BC5208D064421BD89DDD /* Sources */,
+				FF27DBD37CA6A4A07778CD71222811DE /* Frameworks */,
+				1669FC1076E5F0B3D32F71C9FF98761A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				85AFDAA1ADE28C7EEEFA9790A4B769BF /* PBXTargetDependency */,
+			);
+			name = "Pods-PinterestFeed";
+			productName = "Pods-PinterestFeed";
+			productReference = 4170A9EEB8E5016AB2EC82E96C5B7D34 /* Pods_PinterestFeed.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		CB64D727006AB280F2EA73BA45C91238 /* FANetworking */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C8D1F8F85DA54435FD86BAC1EADB2A07 /* Build configuration list for PBXNativeTarget "FANetworking" */;
+			buildPhases = (
+				9C806564123734BA308D2023AB651825 /* Headers */,
+				721F0ABF211B9065753F494FEBEC0F4D /* Sources */,
+				FBE3EEDB67678BA7834FDE3C4EC54A8E /* Frameworks */,
+				A0BDE0A8829929847C7D3FA2154AB130 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FANetworking;
+			productName = FANetworking;
+			productReference = 866DFB9F128290CDBAE8AEC9FAEC75AD /* FANetworking.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 49441DB50FA789A8BACBF6783F1A2FF3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CB64D727006AB280F2EA73BA45C91238 /* FANetworking */,
+				CA3DA22D4133FA5B69A8875CFBF13065 /* Pods-PinterestFeed */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1669FC1076E5F0B3D32F71C9FF98761A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A0BDE0A8829929847C7D3FA2154AB130 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3D23A4371AA8BC5208D064421BD89DDD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3A610719D8618B54D480DB670A738654 /* Pods-PinterestFeed-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		721F0ABF211B9065753F494FEBEC0F4D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D45D6EDE8236D519777D72B4D7B5D3A8 /* CharacterSet+Extension.swift in Sources */,
+				BD75D2DD50CAAB35A79734C347604166 /* Data+Extension.swift in Sources */,
+				25198BFE2B78109E5321828BB9B6318A /* Dictionary+Extension.swift in Sources */,
+				2CFA2174E8019D6F436DA6934C56EA2C /* FANetworking-dummy.m in Sources */,
+				A7E4B167AC8CA3F056D160D2922EA91D /* FileManager+Extension.swift in Sources */,
+				8FB3CC47F4DCFF2F23588CC361CE7C07 /* FormDataPart.swift in Sources */,
+				605FEA0792585C579868D641DA2D3365 /* HTTPURLResponse+Extension.swift in Sources */,
+				1F61455AC22CE4927C0961E61A84F6D4 /* Image.swift in Sources */,
+				B289171E69BD7A9AB1339646FB4ADF63 /* Int+Extension.swift in Sources */,
+				68D83C1094C9D48C46AD31C655D86B68 /* JSON.swift in Sources */,
+				07A3402A2FF84BAB3194F3C1B29DCD60 /* Networking+DELETE.swift in Sources */,
+				A3F20DCAFFB0601AEEC76F45DCCBCB4C /* Networking+GET.swift in Sources */,
+				4DE08450761D6313021A591E792A2710 /* Networking+Image.swift in Sources */,
+				46FB9ABCB1383C11242AA9529DB33B2F /* Networking+Params.swift in Sources */,
+				D543BAC793AC70057B3567F396516063 /* Networking+POST.swift in Sources */,
+				3891AF4314BF271E418363E8C0FD1260 /* Networking+Private.swift in Sources */,
+				8E14099CFCFDF287773DB014448F17D8 /* Networking+PUT.swift in Sources */,
+				1554FACB5CFAD4DD82B9090ED65DD48F /* Networking.swift in Sources */,
+				E46C88B80B9A818A271DB7E733B33F22 /* Response.swift in Sources */,
+				64F5D62DC2B74700F41C60B814FE7FB5 /* Result.swift in Sources */,
+				89B97E79EAE56390937349F10116EE83 /* String+Extension.swift in Sources */,
+				2625AE97E830A61E3312CFA20A204F35 /* TestCheck.swift in Sources */,
+				6378C6F9C9D5E3DCD2863F8A13425D26 /* URL+Extension.swift in Sources */,
+				E07C7F049FEC26848A9F31141D1232DF /* URLRequest+Extension.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		85AFDAA1ADE28C7EEEFA9790A4B769BF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = FANetworking;
+			target = CB64D727006AB280F2EA73BA45C91238 /* FANetworking */;
+			targetProxy = 68B5FC132A773E7EB8075825CFCF0CA7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		084BF313DB74A9A60B909081841F84DD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 113A668E5116FB9E1060B5E56990E7D7 /* FANetworking.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/FANetworking/FANetworking-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/FANetworking/FANetworking-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/FANetworking/FANetworking.modulemap";
+				PRODUCT_MODULE_NAME = FANetworking;
+				PRODUCT_NAME = FANetworking;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		196DFA3E4A09A28224918543529A1885 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		6EE2A21E6F29989981D6BB28AC4BEA4B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 113A668E5116FB9E1060B5E56990E7D7 /* FANetworking.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/FANetworking/FANetworking-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/FANetworking/FANetworking-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/FANetworking/FANetworking.modulemap";
+				PRODUCT_MODULE_NAME = FANetworking;
+				PRODUCT_NAME = FANetworking;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		A607593B05B2E67E7A28795BC61287D2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 52D9D7481DDCF571B82F4185E2D18068 /* Pods-PinterestFeed.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-PinterestFeed/Pods-PinterestFeed-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-PinterestFeed/Pods-PinterestFeed.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		B01D14FDC83DCF9D4BE53066BEA96D05 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		D6FF9E979813FDA876671E3522A2FA07 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 51ABC09C0B4AFF482E595A53CE128B8D /* Pods-PinterestFeed.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-PinterestFeed/Pods-PinterestFeed-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-PinterestFeed/Pods-PinterestFeed.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				196DFA3E4A09A28224918543529A1885 /* Debug */,
+				B01D14FDC83DCF9D4BE53066BEA96D05 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5B72AD9E8B2893611C185731D08B1E3B /* Build configuration list for PBXNativeTarget "Pods-PinterestFeed" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A607593B05B2E67E7A28795BC61287D2 /* Debug */,
+				D6FF9E979813FDA876671E3522A2FA07 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C8D1F8F85DA54435FD86BAC1EADB2A07 /* Build configuration list for PBXNativeTarget "FANetworking" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				084BF313DB74A9A60B909081841F84DD /* Debug */,
+				6EE2A21E6F29989981D6BB28AC4BEA4B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}
